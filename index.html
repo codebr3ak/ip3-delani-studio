@@ -63,7 +63,7 @@
 	<div class="container specific ">
         <h1 class="text-center what ">What we do</h1>
         <div class="row text-center">
-            <div class="col-md-4 main">
+            <div class="col-md-4 main" id="design">
                 <img src="./assets/services_icons/design_icon.png" class="show img-fluid">
                 <h5><strong>DESIGN</strong></h5>
                 <div class="hide">
@@ -97,59 +97,46 @@
 	
 
 	<!--Portfolio section-->
-	<section class="container-fluid" id="portfolio">
+	<section class="container-fluid" >
 		
 		<h1 class="text-center">Portfolio</h1>
-        <div class="card-deck text-center">
-            <div class="card">   
-                <img src="./assets/portfolio/work1.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
-                </div> -->
+        <div class="card-deck text-center" id="portfolio">
+            
+            <div class="card" id="work1">
+                <img src="./assets/portfolio/work1.jpg" class="img-fluid"   alt="">
+                <p id="overlay" class="text">work1</p>
             </div>
-            <div class="card">
+
+            <div class="card" id="work2">
                 <img src="./assets/portfolio/work2.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Ontario <br> security</p>
-                </div> -->
+                <p id="overlay2" class="text">work2</p>
             </div>
-            <div class="card">
+
+            <div class="card" id="work3">
                 <img src="./assets/portfolio/work3.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
-                </div> -->
+                <p id="overlay3" class="text">work3</p>
             </div>
-            <div class="card">
+            <div class="card" id="work4">
                 <img src="./assets/portfolio/work4.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Weather <br>Informer</p>
-                </div> -->
+                <p id="overlay4" class="text">work4</p>
             </div>
         </div>
-        <div class="card-deck text-center">
-            <div class="card">
+        <div class="card-deck text-center" id="portfolio">
+            <div class="card" id="work5">
                 <img src="./assets/portfolio/work5.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Lets <br>Chat</p>
-                </div> -->
+                <p id="overlay5" class="text">work5</p>
             </div>
-            <div class="card">
+            <div class="card" id="work6">
                 <img src="./assets/portfolio/work6.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Mobile <br>Application</p>
-                </div> -->
+                <p id="overlay6" class="text">work6</p>
             </div>
-            <div class="card">
+            <div class="card" id="work7">
                 <img src="./assets/portfolio/work7.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Mock-up <br>Kenya</p>
-                </div> -->
+                <p id="overlay7" class="text">work7</p>
             </div>
-            <div class="card">.
+            <div class="card" id="work8">.
                 <img src="./assets/portfolio/work8.jpg" class="img-fluid" alt="">
-                <!-- <div class="card-1">
-                    <p class="ptag font-weight-bold text-uppercase">Giraffe <br>Restaurant</p>
-                </div> -->
+                <p id="overlay8" class="text">work8</p>
             </div>
         </div>
 	
@@ -165,7 +152,7 @@
 			<input type="text" id="addEmail" name="Email" placeholder="Email...">
 			<br> <br>
 			<textarea name="Message ..." id="message" cols="40" rows="10" placeholder="Message here ..." style="height:200px"></textarea> <br>
-			<button type="submit " class="btn btn-primary">Submit</button>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 	</div>
 	</section>
@@ -186,15 +173,19 @@
 		</div>
 	</section>
 
-	<!-- Footer-->
+    <!-- Footer-->
+<footer>
+    
 	<div class="footer text-center">
-		<p>DELANI STUDIO <br> <br>2019.</p>
-	</div>
+		<p>DELANI STUDIO <br>2019.</p>
+    </div>
+    
+</footer>
 
 </body>
-
+<script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/script.js"></script>
 
-<script src="./js/jquery-3.5.1.js"></script>
+
 
 </html>
