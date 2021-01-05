@@ -18,11 +18,11 @@ Access to a computer and internet
 . Click this link to view the live application: https://codebr3ak.github.io/ip3-delani-studio/
 
 ## Technologies used 
-. HTML 
-.CSS 
-.Bootstrap
-.Jquery
-.Javascript
+* HTML
+* CSS
+* Bootsrap
+* JQuery
+* Javascript
 
 
 ## Support and contact info:
